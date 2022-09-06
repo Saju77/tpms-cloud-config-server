@@ -5,10 +5,4 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka/
   instance:
-    hostname: localhost 
-
-microservice:
-  employee-service:
-    endpoints:
-      endpoint:
-        uri: http://localhost:9191/employee
+    hostname: localhost
