@@ -13,4 +13,5 @@ eureka:     #tells about the Eureka server details and its refresh time
 microservice:
   employee-service:
     endpoints:
-      endpoint: http://localhost:9191/employee
+      endpoint:
+        uri: http://localhost:9191/employee
