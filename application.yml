@@ -9,3 +9,8 @@ eureka:     #tells about the Eureka server details and its refresh time
       enabled: true
     lease:
       duration: 5
+
+microservice:
+  employee-service:
+    endpoints:
+      endpoint: http://localhost:9191/employee
